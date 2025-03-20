@@ -29,4 +29,18 @@ let gameCounter = 100;
 ++gameCounter;
 console.log(gameCounter)
 
+const newString = "   Hardik     ";
+console.log(newString);
+console.log(newString.trim());
+
+const gameName = "Apple_Orange_Grapes_Mango";
+const url = 'https://github.com/HardikOrdex';
+console.log(url.replace("HardikOrdex", "ordextech"));
+
+console.log(url.includes("Ordex"));
+
+console.log(gameName.split("_"));
+
+
+
 
